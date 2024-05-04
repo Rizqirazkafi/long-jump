@@ -22,6 +22,7 @@ void setup() {
   mqtt.setServer(mqttBroker.c_str(), 1883);
 }
 
+// testing
 void loop() {
   digitalWrite(14, LOW);
   if(!mqtt.connected()){
